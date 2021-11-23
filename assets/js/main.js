@@ -1,0 +1,1 @@
+const burger=document.querySelector(".header__burger"),nav=document.querySelector(".mob-nav");burger.addEventListener("click",(()=>{burger.classList.toggle("open"),burger.classList.contains("open")?nav.classList.add("active"):nav.classList.remove("active")}));

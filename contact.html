@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body> 
+    <header class="header container"><a class="headet__logo" href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+      <div class="header__nav"> 
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">Company</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li> <a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="header__burger"> <span> </span><span> </span><span> </span></div>
+    </header>
+    <div class="mob-nav"> 
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">Company</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <main>
+      <section class="intro container intro--contact">
+        <div class="intro__link"> <a href="index.html">Home //  </a><span> Services</span></div>
+      </section>
+      <section class="contact container">
+        <div class="contact__left"> 
+          <div class="contact__info"> <img src="assets/img/contact-address.png" alt="address">
+            <p>Vakhtang Chikovani str. 9, Tbilisi, Georgia</p>
+          </div>
+          <div class="contact__info"> <img src="assets/img/contact-sms.png" alt="mail">
+            <p>info@winmodi.com</p>
+          </div>
+          <div class="contact__info"> <img src="assets/img/contact-tel.png" alt="tel">
+            <p>+995 599 411 917</p>
+          </div>
+        </div>
+        <form class="contact__right" action="send.php" method="POST"> 
+          <h3>NEED A CONSULTATION?</h3>
+          <h2>Drop us a line!</h2>
+          <div class="contact__input"> <img src="assets/img/name.png" alt="name">
+            <input type="text" placeholder="Type your full name" name="name" required>
+          </div>
+          <div class="contact__input"> <img src="assets/img/tel.png" alt="tel">
+            <input type="number" placeholder="Your phone number" required name="tel">
+          </div>
+          <div class="contact__input"> <img src="assets/img/mail.png" alt="mail">
+            <input type="email" placeholder="Your email" required name="mail">
+          </div>
+          <div class="contact__input"> <img src="assets/img/message.png" alt="message">
+            <textarea name="message" cols="30" rows="1" required placeholder="Your message..."></textarea>
+          </div>
+          <div class="contact__button"> 
+            <h3> We are here to answer your questions 24/7</h3>
+            <button class="button" type="submit"> <span> Send</span>
+              <div class="button__hover"><img src="assets/img/right.svg" alt="right"></div>
+            </button>
+          </div>
+        </form>
+      </section>
+      <section class="trusted container">
+        <div class="trusted__bg"></div>
+        <div class="trusted__left"><img src="assets/img/map.png" alt="map"></div>
+        <div class="trusted__right">
+          <h3>TECHNOLOGY INDEX</h3>
+          <h2>We are Trusted 5+ Countries Worldwide </h2>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="footer__infos">
+        <div class="footer__info"><img src="assets/img/map-pin.svg" alt=""><span>Vakhtang Chikovani str. 9, Tbilisi, Georgia</span></div>
+        <div class="footer__info"><img src="assets/img/mail.svg" alt=""><span>info@winmodi.com</span></div>
+        <div class="footer__info"><img src="assets/img/phone.svg" alt=""><span>+995 599 411 917</span></div>
+      </div>
+      <div class="footer__socials"> <a href=""><img src="assets/img/linkiden.svg" alt=""></a><a href=""><img src="assets/img/face.svg" alt=""></a><a href=""><img src="assets/img/insta.svg" alt=""></a></div>
+      <p>Copyright © 2021 All Rights Reserved.</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
